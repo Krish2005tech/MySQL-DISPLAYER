@@ -1,0 +1,6 @@
+@echo off
+color 7
+echo enter name of file you want to view
+set /p name=
+type "%name%.txt"
+pause>nul
